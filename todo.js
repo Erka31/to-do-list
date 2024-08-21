@@ -119,3 +119,4 @@ addButton.addEventListener("click", function () {
 localStorage.getItem("email");
 localStorage.getItem("phone number");
 localStorage.getItem("password");
+
