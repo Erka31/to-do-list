@@ -114,6 +114,8 @@ addButton.addEventListener("click", function () {
   const formattedTime = formatter.format(date);
   time.textContent = formattedTime;
   todoListContainer.appendChild(time);
+
+  input.value = "";
 });
 
 localStorage.getItem("email");
